@@ -11,9 +11,12 @@ export class RecueilDesPrixComponent implements OnInit {
   constructor(private router: Router) { }
   ngOnInit(): void {
   }
-  //route vers recherche par secteur
+  //route vers recherche par s
   onContinue1(): void{
     this.router.navigateByUrl('prix-par-scteur');
+}
+onContinue2(): void{
+  this.router.navigateByUrl('prix-par-nomenclature');
 }
 
 

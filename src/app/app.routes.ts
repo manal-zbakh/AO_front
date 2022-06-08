@@ -1,6 +1,7 @@
 import { ExtraOptions, PreloadAllModules, Routes } from '@angular/router';
 import { BordereauComponent } from './bordereau/bordereau.component';
 import { HomeComponent } from './home/home.component';
+import { PrixParNomenclatureComponent } from './prix-par-nomenclature/prix-par-nomenclature.component';
 import { PrixParSecteurComponent } from './prix-par-secteur/prix-par-secteur.component';
 import { RHierarchiqueComponent } from './r-hierarchique/r-hierarchique.component';
 import { RParSecteurComponent } from './r-par-secteur/r-par-secteur.component';
@@ -39,7 +40,12 @@ export const APP_ROUTES: Routes = [
   {
     path: 'prix-par-scteur',
     component: PrixParSecteurComponent
+  },
+  {
+    path: 'prix-par-nomenclature',
+    component: PrixParNomenclatureComponent
   }
+
 ]
 
 export const APP_EXTRA_OPTIONS: ExtraOptions = {

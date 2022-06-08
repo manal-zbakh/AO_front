@@ -23,6 +23,7 @@ import { RParSecteurComponent } from './r-par-secteur/r-par-secteur.component';
 import { BordereauComponent } from './bordereau/bordereau.component';
 import { RechercheComponent } from './recherche/recherche.component';
 import { PrixParSecteurComponent } from './prix-par-secteur/prix-par-secteur.component';
+import { PrixParNomenclatureComponent } from './prix-par-nomenclature/prix-par-nomenclature.component';
 
 @NgModule({
   imports: [
@@ -49,6 +50,7 @@ import { PrixParSecteurComponent } from './prix-par-secteur/prix-par-secteur.com
     BordereauComponent,
     RechercheComponent,
     PrixParSecteurComponent,
+    PrixParNomenclatureComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

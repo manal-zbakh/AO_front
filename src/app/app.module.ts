@@ -24,6 +24,9 @@ import { BordereauComponent } from './bordereau/bordereau.component';
 import { RechercheComponent } from './recherche/recherche.component';
 import { PrixParSecteurComponent } from './prix-par-secteur/prix-par-secteur.component';
 import { PrixParNomenclatureComponent } from './prix-par-nomenclature/prix-par-nomenclature.component';
+import { ConsultBrdrComponent } from './consult-brdr/consult-brdr.component';
+import { CrtManuelBrdrComponent } from './crt-manuel-brdr/crt-manuel-brdr.component';
+import { CrtAutoBrdrComponent } from './crt-auto-brdr/crt-auto-brdr.component';
 
 @NgModule({
   imports: [
@@ -51,6 +54,9 @@ import { PrixParNomenclatureComponent } from './prix-par-nomenclature/prix-par-n
     RechercheComponent,
     PrixParSecteurComponent,
     PrixParNomenclatureComponent,
+    ConsultBrdrComponent,
+    CrtManuelBrdrComponent,
+    CrtAutoBrdrComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

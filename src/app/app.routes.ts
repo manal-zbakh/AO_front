@@ -1,5 +1,8 @@
 import { ExtraOptions, PreloadAllModules, Routes } from '@angular/router';
 import { BordereauComponent } from './bordereau/bordereau.component';
+import { ConsultBrdrComponent } from './consult-brdr/consult-brdr.component';
+import { CrtAutoBrdrComponent } from './crt-auto-brdr/crt-auto-brdr.component';
+import { CrtManuelBrdrComponent } from './crt-manuel-brdr/crt-manuel-brdr.component';
 import { HomeComponent } from './home/home.component';
 import { PrixParNomenclatureComponent } from './prix-par-nomenclature/prix-par-nomenclature.component';
 import { PrixParSecteurComponent } from './prix-par-secteur/prix-par-secteur.component';
@@ -19,7 +22,7 @@ export const APP_ROUTES: Routes = [
     component: HomeComponent
   },
   {path:'recherche',
-    component:RechercheComponent},
+    component: RechercheComponent},
   {
     path: 'recueil',
     component: RecueilDesPrixComponent
@@ -44,6 +47,18 @@ export const APP_ROUTES: Routes = [
   {
     path: 'prix-par-nomenclature',
     component: PrixParNomenclatureComponent
+  },
+  {
+    path: 'consultation-des-bordereaux',
+    component: ConsultBrdrComponent
+  },
+  {
+    path: 'creation-auto-des-bordereaux',
+    component: CrtAutoBrdrComponent
+  },
+  {
+    path: 'creation-manuelle-des-bordereaux',
+    component: CrtManuelBrdrComponent
   }
 
 ]
